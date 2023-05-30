@@ -607,6 +607,19 @@ a {
     }
 
 }
+@media screen and (max-width:439px) {
+    .dummy_2 {
+        top: 410px;
+        right: -20px;
+    }
+    .for_img {
+        left: -30px !important;
+    }
+    .dummy_1 {
+        left: -80px;
+    
+    }
+}
 
 
 /* ============= Hero Section End  =======*/
@@ -1161,6 +1174,19 @@ a {
         padding: 0px 80px !important;
     }
 }
+@media screen and (max-width:524px) {
+
+.txt_part h2 {
+    font-size: 30px;
+}
+.phn_part {
+    padding: 25px 34px !important;
+}
+.txt_part {
+    margin-top: 60px !important;
+    padding: 0px 34px !important;
+}
+}
 
 /* ==========End of Investments========= */
 
@@ -1258,7 +1284,13 @@ a {
         width: 100%;
     }
 }
+@media screen and (max-width:600px) {
+    .blue {
+        padding: 50px 34px 0px 34px;
+    }
 
+    
+ }
 /* =========end of saver of the month=========== */
 
 /* =========Testimonial============== */
@@ -1352,23 +1384,30 @@ a {
 
     }
 }
+@media screen and (max-width:674px) { 
+  .plus_text{
+     /* border: 1px solid red; */
+     width: 100%;
+  }
+  .scroll {
+    width: 100%;
+
+}
+}
 
 /* =======End of Testimonial========== */
 
 /* =========Featured========== */
 .featured {
-    height: 170px;
+    height: auto;
     width: 100%;
     background-color: #f9f9f9;
     padding: 25px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .As_feat {
     height: auto;
-    width: 300px;
+    width: 100%;
     /* border: 1px solid red; */
     text-align: center;
     font-size: 30px;
@@ -1384,6 +1423,7 @@ a {
     /* border: 1px solid blue; */
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -1395,9 +1435,6 @@ a {
 @media screen and (max-width:1229px) {
     .featured {
         padding: 34px 34px;
-        display: flex;
-        flex-direction: column;
-        height: 270px;
     }
 
     .As_feat {
@@ -1406,6 +1443,16 @@ a {
 
     .Techpoint {
         padding-bottom: 34px;
+    }
+}
+@media screen and (max-width:726px) {
+    .Techpoint {
+       display: flex;
+       flex-direction: column;
+    }
+    .Techpoint img {
+        width: 170px;
+        margin: 20px 30px;
     }
 }
 
@@ -1510,6 +1557,12 @@ a {
     .last{
         padding: 25px 34px 100px 34px;
     }
+    .top{
+        padding-top: 50px;
+    }
+    .top > div{
+        margin-top: 32px;
+    }
     
 }
 @media screen and (max-width:680px) {
@@ -1528,4 +1581,11 @@ a {
     /* border: 1px solid blue; */
     text-align: center;
     padding: 70px 270px;
+}
+
+@media screen and (max-width:929px) {
+    .bottom{
+        padding: 70px 34px;
+    }
+
 }
