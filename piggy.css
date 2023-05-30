@@ -623,6 +623,14 @@ a {
 
     }
 }
+@media screen and (max-width:423px) {
+    .child_four  span{
+        padding: 2px !important;
+    }
+    .child_four button {
+        padding: 14px 10px;
+    }
+}
 
 
 /* ============= Hero Section End  =======*/
@@ -1597,6 +1605,12 @@ a {
         margin-left: 0px;
     }
 
+}
+
+@media screen and (max-width: 763px) {
+    .legal, .company, .prod{
+        padding-left: 0px;
+    }
 }
 
 .bottom {
